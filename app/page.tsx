@@ -4,6 +4,7 @@ import { motion, useAnimationFrame } from "motion/react";
 import { useEffect, useState } from "react";
 import Lenis from "lenis";
 import projects from "../lib/projects";
+import Link from "next/link";
 
 export default function Home() {
   useEffect(() => {
@@ -100,7 +101,7 @@ export default function Home() {
       </div>
       <div className="w-screen h-[1px] bg-[#4b4b4b]"></div> {/* Divider */}
       <div className="w-screen h-[10vh] flex flex-row md:gap-8 gap-6 items-center justify-center">
-        <a href="https://github.com/AyanCh0w">
+        <Link href="https://github.com/AyanCh0w">
           <motion.p
             className="text-lg md:text-xl font-semibold hover:text-[#0ae448] cursor-pointer"
             whileTap={{ scale: 0.95 }}
@@ -108,8 +109,8 @@ export default function Home() {
           >
             Github
           </motion.p>
-        </a>
-        <a href="https://www.linkedin.com/in/ayanchow/">
+        </Link>
+        <Link href="https://www.linkedin.com/in/ayanchow/">
           <motion.p
             className="text-lg md:text-xl font-semibold hover:text-[#0a82e4] cursor-pointer"
             whileTap={{ scale: 0.95 }}
@@ -117,8 +118,8 @@ export default function Home() {
           >
             LinkedIn
           </motion.p>
-        </a>
-        <a href="https://www.youtube.com/@AyanCh0w">
+        </Link>
+        <Link href="https://www.youtube.com/@AyanCh0w">
           <motion.p
             className="text-lg md:text-xl font-semibold hover:text-[#e40a0a] cursor-pointer"
             whileTap={{ scale: 0.95 }}
@@ -126,8 +127,8 @@ export default function Home() {
           >
             Youtube
           </motion.p>
-        </a>
-        <a href="https://x.com/ayanch0w">
+        </Link>
+        <Link href="https://x.com/ayanch0w">
           <motion.p
             className="text-lg md:text-xl font-semibold hover:text-[#e167ff] cursor-pointer"
             whileTap={{ scale: 0.95 }}
@@ -135,7 +136,7 @@ export default function Home() {
           >
             Twitter
           </motion.p>
-        </a>
+        </Link>
       </div>
       <div className="w-screen h-[1px] bg-[#4b4b4b]"></div> {/* Divider */}
       <div className=" w-screen flex">

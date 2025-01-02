@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import projects from "@/lib/projects";
 import Lenis from "lenis";
 import { useEffect } from "react";
+import Link from "next/link";
 
 export default function Projects() {
   useEffect(() => {
@@ -58,7 +59,7 @@ export default function Projects() {
                   </span>
                 ))}
               </div>
-              <a
+              <Link
                 href={project.liveUrl}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -69,7 +70,7 @@ export default function Projects() {
                 >
                   Project Link
                 </motion.div>
-              </a>
+              </Link>
             </div>
           </motion.div>
         ))}
