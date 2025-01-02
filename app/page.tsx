@@ -1,6 +1,6 @@
 "use client";
 
-import { motion, useAnimationFrame } from "motion/react";
+import { motion } from "motion/react";
 import { useEffect, useState } from "react";
 import Lenis from "lenis";
 import projects from "../lib/projects";
