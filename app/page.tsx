@@ -9,7 +9,7 @@ import Link from "next/link";
 export default function Home() {
   useEffect(() => {
     const lenis = new Lenis();
-    function raf(time: any) {
+    function raf(time: number) {
       lenis.raf(time);
       requestAnimationFrame(raf);
     }
@@ -66,7 +66,7 @@ export default function Home() {
           }}
           viewport={{ once: true }}
         >
-          I'm Ayan
+          I&apos;m Ayan
         </motion.p>
         <div className="flex flex-col md:flex-row md:gap-3 gap-0">
           <motion.p
@@ -80,7 +80,7 @@ export default function Home() {
             }}
             viewport={{ once: true }}
           >
-            I'm a student
+            I&apos;m a student
           </motion.p>
           <motion.p
             className="md:text-7xl text-6xl font-semibold text-[#ff8709]"
