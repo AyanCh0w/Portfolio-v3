@@ -48,13 +48,6 @@ export default function RootLayout({
           </div>
         </div>
         {children}
-        <div className="w-screen h-[1px] bg-[#4b4b4b] mt-8"></div>{" "}
-        {/* Divider */}
-        <div className=" overflow-hidden w-[98%] text-[#ffffe3] h-44 my-4 flex flex-col-reverse bg-[#191917] mx-auto border border-[#4b4b4b] rounded-lg">
-          <p className="md:text-[11rem] text-6xl md:translate-y-4 leading-none font-medium">
-            Ayan Chowdhary
-          </p>
-        </div>
       </body>
     </html>
   );

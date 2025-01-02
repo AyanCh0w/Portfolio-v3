@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import Lenis from "lenis";
 import projects from "../lib/projects";
 import Link from "next/link";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   useEffect(() => {
@@ -141,11 +142,19 @@ export default function Home() {
       <div className="w-screen h-[1px] bg-[#4b4b4b]"></div> {/* Divider */}
       <div className=" w-screen flex">
         <div className="flex md:flex-row flex-col my-16 ml-12 md:w-[60vw] gap-8">
-          <p className="md:text-4xl text-xl md:font-normal font-semibold md:w-full w-[80vw]">
+          <motion.p
+            className="md:text-4xl text-xl md:font-normal font-semibold md:w-full w-[80vw]"
+            initial={{ opacity: 0 }}
+            whileInView={{
+              opacity: 1,
+              transition: { delay: 0.2, duration: 0.5 },
+            }}
+            viewport={{ once: true }}
+          >
             I specialize in Machine Learning and full stack development. I enjoy
             building intelligent applications that leverage data-driven insights
             to create impactful user experiences.
-          </p>
+          </motion.p>
           <motion.p
             className="text-6xl cursor-pointer"
             animate={
@@ -173,37 +182,86 @@ export default function Home() {
       </div>
       <div className="w-screen h-[1px] bg-[#4b4b4b]"></div> {/* Divider */}
       <div className="w-screen h-full pb-20 flex flex-col items-center justify-center gap-12">
-        <p className="mt-12 text-3xl font-semibold text-[#a047ee]">SKILL SET</p>
+        <motion.p
+          initial={{ opacity: 0 }}
+          whileInView={{
+            opacity: 1,
+            transition: { delay: 0.1, duration: 0.5 },
+          }}
+          viewport={{ once: true }}
+          className="mt-12 text-3xl font-semibold text-[#a047ee]"
+        >
+          SKILL SET
+        </motion.p>
         <div className="grid gap-8 md:grid-cols-3 grid-cols-1">
           <motion.div
             whileHover={{ scale: 1.01 }}
             className="flex flex-col-reverse w-72 h-96 bg-[#191917] border px-6 py-10 border-[#4b4b4b] rounded-lg gap-2"
+            initial={{ opacity: 0 }}
+            whileInView={{
+              opacity: 1,
+              transition: { delay: 0.3, duration: 0.5 },
+            }}
+            viewport={{ once: true }}
           >
             <p className="text-lg">
               I develop solutions to solve problems using advanved technologies.
             </p>
             <p className="text-3xl">Developer</p>
-            <p className="text-5xl">💻</p>
+            <motion.p
+              initial={{ scale: 0 }}
+              whileInView={{ scale: 1, transition: { delay: 0.4 } }}
+              viewport={{ once: true }}
+              className="text-5xl"
+            >
+              💻
+            </motion.p>
           </motion.div>
           <motion.div
             whileHover={{ scale: 1.01 }}
             className="flex flex-col-reverse w-72 h-96 bg-[#191917] border px-6 py-10 border-[#4b4b4b] rounded-lg gap-2"
+            initial={{ opacity: 0 }}
+            whileInView={{
+              opacity: 1,
+              transition: { delay: 0.4, duration: 0.5 },
+            }}
+            viewport={{ once: true }}
           >
             <p className="text-lg">
               I use communication skills to deliver value and ideas that impact.
             </p>
             <p className="text-3xl">Communication</p>
-            <p className="text-5xl">🗣️</p>
+            <motion.p
+              initial={{ scale: 0 }}
+              whileInView={{ scale: 1, transition: { delay: 0.5 } }}
+              viewport={{ once: true }}
+              className="text-5xl"
+            >
+              🗣️
+            </motion.p>
           </motion.div>
           <motion.div
             whileHover={{ scale: 1.01 }}
             className="flex flex-col-reverse w-72 h-96 bg-[#191917] border px-6 py-10 border-[#4b4b4b] rounded-lg gap-2"
+            initial={{ opacity: 0 }}
+            whileInView={{
+              opacity: 1,
+              transition: { delay: 0.5, duration: 0.5 },
+            }}
+            viewport={{ once: true }}
           >
             <p className="text-lg">
               I create teams and communities to achive my goals
             </p>
             <p className="text-3xl">Leadership</p>
-            <p className="text-5xl">🦁</p>
+            <motion.p
+              initial={{ scale: 0 }}
+              whileInView={{ scale: 1, transition: { delay: 0.6 } }}
+              viewport={{ once: true }}
+              className="text-5xl"
+            >
+              🦁
+            </motion.p>
           </motion.div>
         </div>
         {/* <motion.div
@@ -226,6 +284,9 @@ export default function Home() {
           <div key={project.title}>
             <a href={project.liveUrl}>
               <motion.div
+                initial={{ scale: 0 }}
+                whileInView={{ scale: 1, transition: { delay: 0.4 } }}
+                viewport={{ once: true }}
                 whileHover={{ scale: 0.95 }}
                 className="flex h-fit md:py-12 py-8 justify-between items-center w-full md:px-16 px-6 cursor-pointer"
                 whileTap={{ scale: 0.94 }}
@@ -285,6 +346,7 @@ export default function Home() {
           </motion.div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

@@ -5,6 +5,7 @@ import projects from "@/lib/projects";
 import Lenis from "lenis";
 import { useEffect } from "react";
 import Link from "next/link";
+import Footer from "@/components/Footer";
 
 export default function Projects() {
   useEffect(() => {
@@ -75,6 +76,7 @@ export default function Projects() {
           </motion.div>
         ))}
       </div>
+      <Footer />
     </div>
   );
 }
