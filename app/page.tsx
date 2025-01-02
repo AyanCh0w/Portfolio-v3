@@ -203,7 +203,7 @@ export default function Home() {
               I create teams and communities to achive my goals
             </p>
             <p className="text-3xl">Leadership</p>
-            <p className="text-5xl">👑</p>
+            <p className="text-5xl">🦁</p>
           </motion.div>
         </div>
         {/* <motion.div
