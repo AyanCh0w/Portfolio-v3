@@ -29,8 +29,8 @@ export default function Projects() {
             key={project.title}
             className="flex flex-col items-center md:items-start gap-6 border border-[#4b4b4b] rounded-lg p-6 bg-[#111] shadow-lg"
             initial={{ opacity: 0, y: 50 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
+            animate={{ opacity: 1, y: 0, transition: { delay: 0.5 } }}
+            id={project.title}
           >
             <div className="w-full">
               <Image

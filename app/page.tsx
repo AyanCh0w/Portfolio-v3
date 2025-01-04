@@ -151,9 +151,9 @@ export default function Home() {
             }}
             viewport={{ once: true }}
           >
-            I specialize in Machine Learning and full stack development. I enjoy
-            building intelligent applications that leverage data-driven insights
-            to create impactful user experiences.
+            I specialize in Machine Learning and full stack development. The
+            applications I develop have supported enviromental and educational
+            causes; as well as vericals such as enterntainment.
           </motion.p>
           <motion.p
             className="text-6xl cursor-pointer"
@@ -205,7 +205,15 @@ export default function Home() {
             viewport={{ once: true }}
           >
             <p className="text-lg">
-              I develop solutions to solve problems using advanved technologies.
+              I develop solutions to solve problems using advanced technologies.
+              ex.{" "}
+              <Link
+                className="text-blue-400 hover:underline"
+                href={"/projects#PokeGenerator"}
+              >
+                Poke Generator
+              </Link>
+              .
             </p>
             <p className="text-3xl">Developer</p>
             <motion.p
@@ -228,7 +236,14 @@ export default function Home() {
             viewport={{ once: true }}
           >
             <p className="text-lg">
-              I use communication skills to deliver value and ideas that impact.
+              I use public speaking and debate skills to deliver value and ideas
+              that impact. ex.{" "}
+              <Link
+                className="text-blue-400 hover:underline"
+                href={"/projects#Model UN 2024-25"}
+              >
+                Model UN
+              </Link>
             </p>
             <p className="text-3xl">Communication</p>
             <motion.p
@@ -251,7 +266,21 @@ export default function Home() {
             viewport={{ once: true }}
           >
             <p className="text-lg">
-              I create teams and communities to achive my goals
+              I create teams and communities to achive goals ex. founded{" "}
+              <Link
+                className="text-blue-400 hover:underline"
+                href={"/projects#First Lego League (FLL) - Year 1"}
+              >
+                Lego Robotics team
+              </Link>
+              ,{" "}
+              <Link
+                className="text-blue-400 hover:underline"
+                href={"/projects#Computer Science Scholar Society"}
+              >
+                Computer Science Club
+              </Link>
+              .
             </p>
             <p className="text-3xl">Leadership</p>
             <motion.p
@@ -310,7 +339,7 @@ export default function Home() {
           className="m-8 px-10 py-6 text-2xl font-medium bg-[#191917] border border-[#4b4b4b] rounded-full cursor-pointer"
         >
           <a href="/projects">
-            <p>Load More</p>
+            <p>See More</p>
           </a>
         </motion.div>
       </div>

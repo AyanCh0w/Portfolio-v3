@@ -15,6 +15,18 @@ const projects = [
     liveUrl: "https://redbot.pro/",
   },
   {
+    title: "Model UN 2024-25",
+    shortDescription: "Compeating in confrences with my Model UN club.",
+    techStack: ["Public Speaking", "Debate", "Team Building"],
+    bulletPoints: [
+      "Awards So Far:",
+      "🥉 3rd Place, Churchill, Despicable Me Committie",
+    ],
+    date: "Dec 2024",
+    imageUrl: "/images/modelun.jpg",
+    liveUrl: "https://www.instagram.com/whsmun/",
+  },
+  {
     title: "Congressional App Challenge 2024",
     shortDescription: "Web app built for the Congressional App Challenge",
     techStack: ["Next.js", "TailwindCSS", "TypeScript"],
@@ -28,6 +40,19 @@ const projects = [
     liveUrl: "https://mocorecycle.vercel.app/",
   },
   {
+    title: "Computer Science Scholar Society",
+    shortDescription:
+      "Founded a CS club at school to attend competitions and build projects.",
+    techStack: ["Public Speaking", "Leadership", "Programming"],
+    bulletPoints: [
+      "Founded a CS club at school to attend competitions and build projects.",
+      "Planning to compete at near by universitys such as Penn and UMD",
+    ],
+    date: "Oct 2024",
+    imageUrl: "/images/csss.jpg",
+    liveUrl: "https://csssociety.net/",
+  },
+  {
     title: "Portfolio v2",
     shortDescription: "2nd minimalistic iteration of my portfolio website",
     techStack: ["Next.js", "TailwindCSS"],
@@ -39,6 +64,20 @@ const projects = [
     date: "April 2024",
     imageUrl: "/images/portfoliov2.png",
     liveUrl: "https://portfolio-nu-mocha-25.vercel.app/",
+  },
+  {
+    title: "Model UN 2023-24",
+    shortDescription: "Compeating in confrences with my Model UN club.",
+    techStack: ["Public Speaking", "Debate", "Team Building"],
+    bulletPoints: [
+      "Awards:",
+      "🥈 2nd Place, University of Maryland, The British Raj",
+      "🥉 3rd Place, Thomas Jefferson, 3 Dynasties",
+      "🥉 3rd Place, Churchill, UNEP",
+    ],
+    date: "Dec 2024",
+    imageUrl: "/images/modelun.jpg",
+    liveUrl: "https://www.instagram.com/whsmun/",
   },
   {
     title: "PokeGenerator",
