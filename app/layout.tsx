@@ -41,8 +41,13 @@ export default function RootLayout({
               </div>
             </a> */}
             <Link href="/projects">
-              <div className="pr-4 py-2 hover:text-[#727272] cursor-pointer">
+              <div className="px-2 py-2 hover:text-[#727272] cursor-pointer">
                 <p>Projects</p>
+              </div>
+            </Link>
+            <Link href="/resume">
+              <div className="pr-4 py-2 hover:text-[#727272] cursor-pointer">
+                <p>Resume</p>
               </div>
             </Link>
           </div>
