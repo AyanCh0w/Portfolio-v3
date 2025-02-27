@@ -46,7 +46,7 @@ const projects = [
     techStack: ["Public Speaking", "Leadership", "Programming"],
     bulletPoints: [
       "Founded a CS club at school to attend competitions and build projects.",
-      "Planning to compete at near by university such as Penn and UMD",
+      "Planning to compete at near by universitys such as Penn and UMD",
     ],
     date: "Oct 2024",
     imageUrl: "/images/csss.jpg",
