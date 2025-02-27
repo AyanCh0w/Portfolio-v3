@@ -152,8 +152,8 @@ export default function Home() {
             viewport={{ once: true }}
           >
             I specialize in Machine Learning and full stack development. The
-            applications I develop have supported enviromental and educational
-            causes; as well as vericals such as enterntainment.
+            applications I develop have supported environmental and educational
+            causes; as well as verticals such as entertainment.
           </motion.p>
           <motion.p
             className="text-6xl cursor-pointer"
@@ -266,7 +266,7 @@ export default function Home() {
             viewport={{ once: true }}
           >
             <p className="text-lg">
-              I create teams and communities to achive goals ex. founded{" "}
+              I create teams and communities to achieve goals ex. founded{" "}
               <Link
                 className="text-blue-400 hover:underline"
                 href={"/projects#First Lego League (FLL) - Year 1"}
@@ -359,7 +359,7 @@ export default function Home() {
               <p>TypeScript</p>
               <p>Firebase and GCP Tools</p>
             </div>
-            <p className="text-3xl">Web Developent</p>
+            <p className="text-3xl">Web Development</p>
           </motion.div>
           <motion.div
             whileHover={{ scale: 1.01 }}

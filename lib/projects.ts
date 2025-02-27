@@ -16,11 +16,11 @@ const projects = [
   },
   {
     title: "Model UN 2024-25",
-    shortDescription: "Compeating in confrences with my Model UN club.",
+    shortDescription: "Competing in conferences with my Model UN club.",
     techStack: ["Public Speaking", "Debate", "Team Building"],
     bulletPoints: [
       "Awards So Far:",
-      "🥉 3rd Place, Churchill, Despicable Me Committie",
+      "🥉 3rd Place, Churchill, Despicable Me Committee",
     ],
     date: "Dec 2024",
     imageUrl: "/images/modelun.jpg",
@@ -46,7 +46,7 @@ const projects = [
     techStack: ["Public Speaking", "Leadership", "Programming"],
     bulletPoints: [
       "Founded a CS club at school to attend competitions and build projects.",
-      "Planning to compete at near by universitys such as Penn and UMD",
+      "Planning to compete at near by university such as Penn and UMD",
     ],
     date: "Oct 2024",
     imageUrl: "/images/csss.jpg",
@@ -67,7 +67,7 @@ const projects = [
   },
   {
     title: "Model UN 2023-24",
-    shortDescription: "Compeating in confrences with my Model UN club.",
+    shortDescription: "Competing in conferences with my Model UN club.",
     techStack: ["Public Speaking", "Debate", "Team Building"],
     bulletPoints: [
       "Awards:",
