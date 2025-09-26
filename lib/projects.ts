@@ -1,5 +1,20 @@
 const projects = [
   {
+    title: "GroundHog",
+    shortDescription: "Modern portfolio built using Next.js and TailwindCSS",
+    techStack: ["Next.js", "Supabase", "Arduino", "SciKit Learn"],
+    bulletPoints: [
+      "Built GroundHog, an autonomous soil-analysis rover.",
+      "Integrated pH, moisture, EC, and temperature sensors.",
+      "Used Arduino Giga with GPS and gyroscope correction.",
+      "Published real-time data via MQTT to a Mapbox dashboard.",
+      "Partnered with local farms and UMD CPSE to apply insights.",
+    ],
+    date: "Jul - Aug 2025",
+    imageUrl: "/images/groundhog.jpeg",
+    liveUrl: "https://groundhog.farm/",
+  },
+  {
     title: "Portfolio Website v3",
     shortDescription: "Modern portfolio built using Next.js and TailwindCSS",
     techStack: ["Next.js", "TailwindCSS", "TypeScript", "Framer Motion"],
