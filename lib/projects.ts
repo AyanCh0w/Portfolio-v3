@@ -1,7 +1,8 @@
 const projects = [
   {
     title: "GroundHog",
-    shortDescription: "Modern portfolio built using Next.js and TailwindCSS",
+    shortDescription:
+      "Autonomous agriculture rover for real-time soil analysis with UMD.",
     techStack: ["Next.js", "Supabase", "Arduino", "SciKit Learn"],
     bulletPoints: [
       "Built GroundHog, an autonomous soil-analysis rover.",
